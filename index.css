@@ -12,12 +12,18 @@ p {
 }
 
 .text1 {
-  padding-top: 10em;
+  padding-top: 1em;
+  padding-left: 10em;
+  padding-right: 10em;
 }
 
 .text2 {
   padding-top: 10em;
 }
+
+.text2 h2 {
+    padding-bottom: 1em;
+  }
 
 .text3 {
   padding-top: 10em;
