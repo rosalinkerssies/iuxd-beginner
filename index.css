@@ -1,5 +1,6 @@
 body {
   padding-top: 10em;
+
 }
 
 h1 {
@@ -16,6 +17,39 @@ p {
   padding-left: 10em;
   padding-right: 10em;
 }
+.title
+{
+  background-color: #fff;
+}
+
+.section1
+{
+  background-color: #eee;
+}
+.section2
+{
+  background-color: #ddd;
+}
+.section3
+{
+  background-color: #ccc;
+}
+.section4
+{
+  background-color: #bbb;
+}
+
+.section5
+{
+  background-color: red;
+}
+
+.section6
+{
+  background-color:blue;
+}
+
+
 
 .text2 {
   padding-top: 10em;
@@ -37,4 +71,51 @@ p {
   padding-top: 10em;
   padding-left: 10em;
   padding-right: 10em;
+}
+
+.text4 {
+    padding-top: 10em;
+}
+
+.text4 h2 {
+    padding-bottom: 1em;
+  }
+
+.text5 {
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.text5 h2 {
+    padding-bottom: 1em;
+  }
+
+.text6 {
+    padding-top: 10em;
+}
+
+.text6 h4 {
+    padding-bottom: 1em;
+  }
+
+.text7 {
+    padding-top: 10em;
+}
+
+.text7 h4 {
+    padding-bottom: 1em;
+  }
+
+.text8 {
+    padding-top: 10em;
+}
+
+.text8 h4 {
+    padding-bottom: 1em;
+  }
+
+.container-fluid
+{
+  padding-left: 0px;
+  padding-right: 0px;
 }
