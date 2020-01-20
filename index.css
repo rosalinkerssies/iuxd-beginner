@@ -4,67 +4,83 @@ body {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
 }
 
 p {
+    font-family: sans-serif;
     line-height: 1.8em;
+    font-size: 16px;
 }
 
 .text1 {
   padding-top: 1em;
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-right: 30em;
 }
 .title
 {
   background-color: #fff;
 }
 
-.section1
-{
-  background-color: #eee;
-}
 .section2
 {
   background-color: #ddd;
 }
 .section3
 {
-  background-color: #ccc;
+  background-color: white;
 }
 .section4
 {
-  background-color: #bbb;
+  background-color: #ddd;
 }
 
 .section5
 {
-  background-color: red;
+  background-color: white;
 }
 
 .section6
 {
-  background-color:blue;
+  background-color: #ddd;
 }
 
+.section7
+{
+  background-color: white;
+}
 
+.section8 {
+  background-color: #ddd;
+}
+
+.text1 {
+  padding-top: 8mm;
+  padding-bottom: 10em;
+}
 
 .text2 {
   padding-top: 10em;
+  padding-bottom: 10em;
 }
 
 .text2 h2 {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
 
 .text3 {
   padding-top: 10em;
+  padding-bottom: 10em;
 }
 
 .text3 h2 {
-  padding-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
 .textcenter {
@@ -75,11 +91,12 @@ p {
 
 .text4 {
     padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 .text4 h2 {
-    padding-bottom: 1em;
-  }
+  padding-bottom: 0.5em;
+}
 
 .text5 {
     padding-top: 10em;
@@ -87,31 +104,34 @@ p {
 }
 
 .text5 h2 {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
 
 .text6 {
     padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 .text6 h4 {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
 
 .text7 {
     padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 .text7 h4 {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
 
 .text8 {
     padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 .text8 h4 {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
   }
 
 .container-fluid
