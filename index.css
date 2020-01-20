@@ -1,6 +1,32 @@
-body {
-  padding-top: 10em;
+.title div img {
+  height: 500px;
+}
 
+p {
+font-family: muli, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+h1{
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;  
+}
+
+h2{
+font-family: mr-eaves-xl-modern, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 40px;
+}
+
+h4{
+font-family: mr-eaves-xl-modern, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 30px;
 }
 
 h1 {
@@ -11,7 +37,23 @@ h1 {
 h2 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 32px;
+
+  /* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #00000060;
+}
+
 
 p {
     font-family: sans-serif;
@@ -27,28 +69,46 @@ p {
 {
   background-color: #fff;
 }
-
-.section2
-{
-  background-color: #ddd;
+.title
+p{
+  padding-right: 10em;
+  padding-left: 10em;
 }
-.section3
+
+.centered{
+  color: #fff;
+  padding: 5em;
+}
+
+.section1
 {
   background-color: white;
 }
+
+.section2
+{
+  background-color: #fff;
+}
+.section3
+{
+  background-color: #E4FFF7;
+}
 .section4
 {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 .section5
 {
-  background-color: white;
+  background-color: #E4FFF7;
 }
 
+.section4 div img{
+padding-top: 5em;
+}
 .section6
 {
-  background-color: #ddd;
+  background-color:white;
 }
 
 .section7
@@ -66,23 +126,41 @@ p {
 }
 
 .text2 {
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: black;
 }
 
 .text2 h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 35px;
   }
 
+.text2 p{
+  padding-left: 2em;
+}
+
+.text2 img {
+  padding-right: 2em;
+}
 .text3 {
-  padding-top: 10em;
-  padding-bottom: 10em;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  color: black;
 }
 
 .text3 h2 {
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
+  padding-right: 35px;
 }
 
+.text3 p {
+  padding-right: 2em;
+}
+
+.text3 img {
+  padding-left: 2em;
+}
 .textcenter {
   padding-top: 10em;
   padding-left: 10em;
@@ -90,26 +168,44 @@ p {
 }
 
 .text4 {
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: black;
 }
 
 .text4 h2 {
-  padding-bottom: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 35px;
+  }
+
+.text4 p {
+  padding-left: 2em;
 }
 
+.text4 img{
+  padding-right: 2em;
+}
 .text5 {
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    color: black;
 }
 
 .text5 h2 {
-    padding-bottom: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 35px;
   }
 
+.text5 p{
+  padding-right: 2em;
+}
+
+.text5 img{
+  padding-left: 2em;
+}
 .text6 {
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    color: black;
 }
 
 .text6 h4 {
@@ -117,8 +213,8 @@ p {
   }
 
 .text7 {
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    color: black;
 }
 
 .text7 h4 {
@@ -126,8 +222,9 @@ p {
   }
 
 .text8 {
-    padding-top: 10em;
-    padding-bottom: 10em;
+    padding-top: 5em;
+    padding-bottom: 20em;
+    color: black;
 }
 
 .text8 h4 {
