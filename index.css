@@ -33,7 +33,6 @@ font-size: 30px;
 .container {
   position: relative;
   text-align: center;
-  color: white;
 }
 
 /* Centered text */
@@ -209,8 +208,22 @@ padding-top: 5em;
     padding-bottom: 1em;
   }
 
-.container-fluid
+  .container-fluid
 {
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.text9 h4 {
+  padding-bottom: 1em;
+}
+.container-bron{
+  position: relative;
+  text-align: left;
+}
+
+.container-footer{
+  display: flex;
+  justify-content: center;
+    flex-direction: column;
 }
