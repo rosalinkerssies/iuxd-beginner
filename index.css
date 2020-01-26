@@ -8,6 +8,16 @@ font-weight: 200;
 font-style: normal;
 }
 
+li {
+font-family: muli, sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+div .container .text2 {
+  text-align: left;
+}
+
 h1{
   font-family: mr-eaves-xl-modern, sans-serif;
   font-weight: 700;
@@ -100,12 +110,17 @@ padding-top: 5em;
   background-color:white;
 }
 
+.section7{
+  background-color: #E4FFF7;
+}
+
 
 
 .text2 {
   padding-top: 5em;
   padding-bottom: 5em;
   color: black;
+  text-align: left;
 }
 
 .text2 h2 {
@@ -124,6 +139,7 @@ padding-top: 5em;
   padding-top: 5em;
   padding-bottom: 5em;
   color: black;
+  text-align: right;
 }
 
 .text3 h2 {
@@ -148,6 +164,7 @@ padding-top: 5em;
     padding-top: 5em;
     padding-bottom: 5em;
     color: black;
+    text-align: left;
 }
 
 .text4 h2 {
@@ -166,6 +183,7 @@ padding-top: 5em;
     padding-top: 5em;
     padding-bottom: 5em;
     color: black;
+    text-align: right;
 }
 
 .text5 h2 {
@@ -182,7 +200,9 @@ padding-top: 5em;
 }
 .text6 {
     padding-top: 5em;
+    padding-bottom: 2em;
     color: black;
+    text-align: left;
 }
 
 .text6 h4 {
@@ -190,8 +210,10 @@ padding-top: 5em;
   }
 
 .text7 {
-    padding-top: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     color: black;
+    text-align: left;
 }
 
 .text7 h4 {
@@ -199,9 +221,10 @@ padding-top: 5em;
   }
 
 .text8 {
-    padding-top: 5em;
-    padding-bottom: 20em;
+    padding-top: 2em;
+    padding-bottom:5em;
     color: black;
+    text-align: left;
 }
 
 .text8 h4 {
@@ -217,11 +240,47 @@ padding-top: 5em;
 .text9 h4 {
   padding-bottom: 1em;
 }
+
+.text9 {
+  padding-top: 5em;
+}
+.voorbeelduitwerking{
+  padding-top: 5em;
+  padding-bottom: 5em;
+  text-align: left;
+}
+
+.voorbeelduitwerking p {
+  padding-left: 2em;
+}
+
+.voorbeelduitwerking li {
+  padding-left: 2em;
+}
+
+.voorbeelduitwerking h2 {
+  padding-left: 30px
+}
+.voorbeelduitwerking video{
+  padding-right: 2em;
+}
+
+.voorbeelduitwerking p{
+font-family: muli, sans-serif;
+font-weight: bold;
+font-style: normal;
+margin-top: 1em;
+margin-bottom: 0em;
+}
+
 .container-bron{
   position: relative;
   text-align: left;
 }
 
+.text13{
+  padding-bottom: 5em;
+}
 .container-footer{
   display: flex;
   justify-content: center;
